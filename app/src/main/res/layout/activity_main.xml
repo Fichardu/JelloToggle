@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:text="Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+
+    <me.fichardu.jellotoggle.JelloToggle
+        android:id="@+id/jello1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="24dp"
+            android:text="Text"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="#ff607D8B"
+            />
+    </me.fichardu.jellotoggle.JelloToggle>
+
+    <TextView
+        android:text="Title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="50dp"/>
+
+    <me.fichardu.jellotoggle.JelloToggle
+        android:id="@+id/jello2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="24dp"
+            android:text="Text"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="#ff6D4C41"
+            />
+    </me.fichardu.jellotoggle.JelloToggle>
+
+    <me.fichardu.jellotoggle.JelloToggle
+        android:id="@+id/jello3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="24dp"
+            android:text="Text"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="#ff43A047"
+            />
+    </me.fichardu.jellotoggle.JelloToggle>
+
+</LinearLayout>
